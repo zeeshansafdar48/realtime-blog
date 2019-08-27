@@ -5,6 +5,9 @@
   "author": "Dustin Schau <dustinschau@gmail.com> (https://dustinschau.com)",
   "repository": "https://github.com/dschau/gatsby-blog-starter-kit",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
     "gatsby": "~1.9.45",
     "gatsby-link": "~1.6.17",
     "gatsby-plugin-catch-links": "~1.0.1",
@@ -12,9 +15,12 @@
     "gatsby-plugin-react-next": "~1.0.4",
     "gatsby-source-filesystem": "~1.5.1",
     "gatsby-transformer-remark": "~1.7.12",
+    "pusher": "^2.2.2",
+    "pusher-js": "^5.0.0",
     "react": "~16.2.0",
     "react-dom": "~16.2.0",
-    "react-icons": "~2.2.5"
+    "react-icons": "~2.2.5",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "gh-pages": "1.1.0",

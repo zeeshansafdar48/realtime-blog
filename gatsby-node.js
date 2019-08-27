@@ -60,6 +60,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             path
             tags
             title
+            image
           }
         }
       }
